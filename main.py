@@ -82,7 +82,7 @@ class Comment(db.Model):
 
 # Create database and tables for sqlite or tables for mysql
 # Comment if Database and tables are already created
-# db.create_all()
+db.create_all()
 
 
 def decorator_function(function):
