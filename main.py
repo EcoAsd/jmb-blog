@@ -16,7 +16,7 @@ import os
 app = Flask(__name__)
 # In terminal Command Prompt, run the command:
 # set [VARIABLE NAME]=[VALUE]
-app.config['SECRET_KEY'] = os.environ.get("")
+app.config['SECRET_KEY'] = "8BYkEfBA6O6donzWlSihBXox7C0sKR6b"
 ckeditor = CKEditor(app)
 Bootstrap(app)
 gravatar = Gravatar(app,
